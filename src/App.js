@@ -33,16 +33,16 @@ function App() {
 
   return (
     <div className="">
-      <div className="flex md:block md:justify-center items-start flex-col sm:px-20 lg:pl-20">
+      <div className="flex md:block md:justify-center items-start flex-col sm:px-10 md:px-20">
         <h1 className="text-4xl text-black max-w-prose font-bold mt-10 mb-5">
           Get your Kemper Profiling Amp
         </h1>
       </div>
-      <div className="divide-y divide-gray-500 pl-10">
-        <p className="text-gray-500 text-lg mx-10">
+      <div className="divide-y divide-gray-500 md:pl-10">
+        <p className="text-gray-500 text-lg sm:px-10 md:mx-10">
           All your favorite amps and effects, together in one little box.
         </p>
-        <hr className="border border-gray-900 mt-5 mb-2 mx-10" />
+        <hr className="border border-gray-900 mt-5 mb-2 sm:mx-10" />
       </div>
       <div className="">
         <section className="inline-block float-left lg:sticky lg:top-3 lg:left-0 sm:px-10 lg:pl-20 lg:w-1/2 align-top mt-5">
@@ -126,7 +126,7 @@ function App() {
             <p className="text-2xl font-medium mb-2">Foot Controller</p>
             <section
               tabIndex="0"
-              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus-visible:ring-gray-400
+              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400
       focus:border-gray-700 active:border-gray-700 hover:border-gray-400 px-5 py-2 cursor-pointer"
             >
               <p className="font-medium">None</p>
@@ -134,7 +134,7 @@ function App() {
             <br />
             <section
               tabIndex="0"
-              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus-visible:ring-gray-400
+              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400
       focus:border-gray-700 active:border-gray-700 hover:border-gray-400 px-5 py-2 cursor-pointer"
             >
               <div
