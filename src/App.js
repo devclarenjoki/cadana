@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="">
-      <div className="flex md:block md:justify-center items-start flex-col sm:px-20 lg:pl-20">
+      <div className="flex md:block justify-center items-start flex-col sm:px-20 lg:pl-20">
         <h1 className="text-4xl text-black max-w-prose font-bold mt-10 mb-5">
           Get your Kemper Profiling Amp
         </h1>
@@ -126,7 +126,7 @@ function App() {
             <p className="text-2xl font-medium mb-2">Foot Controller</p>
             <section
               tabIndex="0"
-              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus-visible:ring-gray-400
+              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400
       focus:border-gray-700 active:border-gray-700 hover:border-gray-400 px-5 py-2 cursor-pointer"
             >
               <p className="font-medium">None</p>
@@ -134,7 +134,7 @@ function App() {
             <br />
             <section
               tabIndex="0"
-              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus-visible:ring-gray-400
+              className="border shadow-sm rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400
       focus:border-gray-700 active:border-gray-700 hover:border-gray-400 px-5 py-2 cursor-pointer"
             >
               <div
