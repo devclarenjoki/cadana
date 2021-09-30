@@ -33,7 +33,11 @@ function App() {
 
   return (
     <div className="">
+<<<<<<< HEAD
       <div className="flex md:block md:justify-center items-start flex-col sm:px-10 md:px-20">
+=======
+      <div className="flex md:block justify-center items-start flex-col sm:px-20 lg:pl-20">
+>>> 43ee8a82f90f703b672cf11024d8a132c019598a
         <h1 className="text-4xl text-black max-w-prose font-bold mt-10 mb-5">
           Get your Kemper Profiling Amp
         </h1>
